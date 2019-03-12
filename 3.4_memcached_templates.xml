@@ -28,7 +28,7 @@
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                    <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     <delay>1m</delay>
                     <history>1d</history>
                     <trends>0</trends>
@@ -109,7 +109,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -161,7 +161,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -213,7 +213,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -265,7 +265,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -317,7 +317,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -369,7 +369,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -417,7 +417,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -465,7 +465,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -517,7 +517,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -569,7 +569,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -658,7 +658,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -710,7 +710,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -803,7 +803,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -855,7 +855,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>memcached.stats.json[{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
+                        <key>memcached.stats.json[{$SOCKET},{$MEMCACHED_SERVER},{$MEMCACHED_PORT}]</key>
                     </master_item>
                 </item>
                 <item>
@@ -908,6 +908,10 @@
                 <macro>
                     <macro>{$MEMCACHED_CRIT}</macro>
                     <value>5</value>
+                </macro>
+                <macro>
+                    <macro>{$SOCKET}</macro>
+                    <value>-U</value>
                 </macro>
                 <macro>
                     <macro>{$MEMCACHED_PORT}</macro>
